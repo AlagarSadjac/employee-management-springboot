@@ -72,21 +72,28 @@ Employee Management System API serves as a centralized backend service to stream
 
 ---
 
-1. Clone the repository:
-   git clone https://github.com/AlagarSadjac/employee-management-springboot.git
+### ⚙️ How To Run Locally
 
-2. Configure database credentials in src/main/resources/application.properties:
+1. Clone the repository:
+   ```bash
+   git clone [https://github.com/AlagarSadjac/employee-management-springboot.git](https://github.com/AlagarSadjac/employee-management-springboot.git)
+   ```
+
+2. Configure database credentials in `src/main/resources/application.properties`:
+   ```properties
    spring.datasource.url=jdbc:postgresql://localhost:5432/employee_db
    spring.datasource.username=postgres
    spring.datasource.password=your_password
    spring.jpa.hibernate.ddl-auto=update
    spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect
+   ```
 
 3. Run the Spring Boot application using Maven:
+   ```bash
    mvn spring-boot:run
+   ```
 
-4. Access and test the endpoints locally at:
-   http://localhost:8080/api/employees (or directly via the live Render URL)
+4. Access and test the endpoints via Postman at `http://localhost:8080`.
 ---
 
 ## 🎯 Purpose
