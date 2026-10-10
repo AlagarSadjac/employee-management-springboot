@@ -72,7 +72,6 @@ Employee Management System API serves as a centralized backend service to stream
 
 ---
 
-### ⚙️ How To Run Locally
 1. Clone the repository:
    git clone https://github.com/AlagarSadjac/employee-management-springboot.git
 
@@ -86,8 +85,8 @@ Employee Management System API serves as a centralized backend service to stream
 3. Run the Spring Boot application using Maven:
    mvn spring-boot:run
 
-4. Test endpoints locally at http://localhost:8080/api/employees or directly via the live Render URL.
-
+4. Access and test the endpoints locally at:
+   http://localhost:8080/api/employees (or directly via the live Render URL)
 ---
 
 ## 🎯 Purpose
