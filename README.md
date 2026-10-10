@@ -1,7 +1,7 @@
 # 👥 Employee Management System - REST API
 
 [![Java](https://img.shields.io/badge/Language-Java%2021-orange?logo=java)](https://www.java.com/)
-[![Spring Boot](https://img.shields.io/badge/Framework-Spring%20Boot%203.x-6DB33F?logo=springboot&logoColor=white)](https://spring.io/projects/spring-boot)
+[![Spring Boot](https://img.shields.io/badge/Framework-Spring%20Boot%204.x-6DB33F?logo=springboot&logoColor=white)](https://spring.io/projects/spring-boot)
 [![PostgreSQL](https://img.shields.io/badge/Database-PostgreSQL-336791?logo=postgresql&logoColor=white)](https://www.postgresql.org/)
 [![Postman](https://img.shields.io/badge/Testing-Postman-FF6C37?logo=postman&logoColor=white)](https://www.postman.com/)
 
@@ -34,7 +34,7 @@ Employee Management System API serves as a centralized backend service to stream
 
 ## 🛠️ Built With
 * **Language:** Java 21
-* **Framework:** Spring Boot 3x
+* **Framework:** Spring Boot 4.x
 * **Database:** PostgreSQL / MySQL
 * **ORM / Persistence:** Spring Data JPA & Hibernate
 * **Boilerplate Reduction:** Lombok (@Data)
